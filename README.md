@@ -11,3 +11,19 @@ Este projeto é um chatbot bancário simples, desenvolvido com Python (Flask) no
 
 ## 📁 Estrutura de Pastas
 
+chatbot-bancario/
+│
+├── app.py # Arquivo principal Flask
+├── intents.py # Reconhece intenções do usuário
+├── fsm.py # Lógica de transição da FSM
+├── requirements.txt # Dependências do projeto
+│
+├── templates/
+│ └── chatbot-bancario.html # Interface principal do chatbot
+│
+└── static/
+├── css/
+│ └── style.css # Estilo da interface
+└── js/
+└── script.js # Lógica do frontend (envio de mensagens)
+
