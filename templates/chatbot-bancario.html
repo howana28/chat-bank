@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>KORU BANK</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatbox">
+            <div class="message bot">Olá! Bem-vindo ao KORU Bank.</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="mensagem" placeholder="Digite sua mensagem..." autofocus>
+            <button onclick="enviarMensagem()">Enviar</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
